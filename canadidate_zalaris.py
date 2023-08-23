@@ -2,7 +2,7 @@
 
 import pickle
 import streamlit as st 
-
+import openpyxl
 import pandas as pd 
 
 pickle_in = open("model1.pickle","rb")
